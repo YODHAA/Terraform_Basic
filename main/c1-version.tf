@@ -16,6 +16,11 @@ provider "aws" {
    profile = "default"
 }
 
+provider "aws" {
+    region = "us-west-1"
+    profile = "default"
+    alias = "aws-west-1"
+}
 
 locals {}
 
